@@ -1,3 +1,11 @@
+# Script for checking list or range of IPs for being enabled and receiving their mac addresses
+# Written by Alexander Kovtunov
+# 
+# Based on:
+# http://www.pax-pentest.net/tag/packetfu/
+# http://owowthathurts.blogspot.com/2013/09/ip-range-filtering-using-rubys-ipaddr.html
+# http://www.digitaloffensive.com/2012/01/ruby-script-to-check-if-an-ip-is-up-and-get-its-hostname/
+
 #!/usr/bin/ruby
 require "socket"
 require "resolv"
